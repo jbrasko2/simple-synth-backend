@@ -23,3 +23,19 @@ Preset.create(
     chorSwitch: false,
     synth_id: 1
 )
+
+Preset.create(
+    name: "Smooth",
+    waveTypeButton: 1,
+    filterDial: 2000,
+    attack: 0.5,
+    decay: 0.4,
+    sustain: 0.7,
+    release: 0.3,
+    reverbDial: 0.5,
+    delayDial: 0,
+    tremSwitch: false,
+    tremFreq: 0,
+    chorSwitch: false,
+    synth_id: 1
+)
