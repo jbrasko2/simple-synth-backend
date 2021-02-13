@@ -5,3 +5,21 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Synth.create(title: "Simple Synth")
+
+Preset.create(
+    name: "Harsh",
+    waveTypeButton: 3,
+    filterDial: 5000,
+    attack: 0.01,
+    decay: 0.4,
+    sustain: 0.7,
+    release: 0.3,
+    reverbDial: 0,
+    delayDial: 0,
+    tremSwitch: false,
+    tremFreq: 0,
+    chorSwitch: false,
+    synth_id: 1
+)

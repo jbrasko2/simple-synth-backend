@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  attack: 1.5
+  decay: 1.5
+  sustain: 1.5
+  release: 1.5
+  synth: one
+
+two:
+  attack: 1.5
+  decay: 1.5
+  sustain: 1.5
+  release: 1.5
+  synth: two
