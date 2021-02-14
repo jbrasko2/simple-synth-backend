@@ -17,17 +17,17 @@ class PresetsController < ApplicationController
     def preset_params
         params.require(:preset).permit(
             :name,
-            :waveTypeButton,
-            :filterDial,
-            :attack,
-            :decay,
-            :sustain,
-            :release,
-            :reverbDial,
-            :delayDial,
-            :tremSwitch,
-            :tremFreq,
-            :chorSwitch
+            :wtb,
+            :fd,
+            :att,
+            :dc,
+            :sus,
+            :rel,
+            :rd,
+            :dd,
+            :ts,
+            :tf,
+            :cs
         )
     end
 end
