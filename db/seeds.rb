@@ -26,8 +26,8 @@ Preset.create(
 
 Preset.create(
     name: "Lonely Clarinet",
-    waveTypeButton: 1,
-    filterDial: 400,
+    waveTypeButton: 2,
+    filterDial: 700,
     attack: 0.25,
     decay: 0.35,
     sustain: 2,
