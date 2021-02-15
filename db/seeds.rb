@@ -119,3 +119,19 @@ Preset.create(
     cs: false,
     synth_id: 1
 )
+
+Preset.create(
+    name: "Blade Runner",
+    wtb: 3,
+    fd: 5000,
+    att: 2,
+    dc: 2,
+    sus: 1,
+    rel: 5,
+    rd: 1,
+    dd: 0.5,
+    ts: false,
+    tf: 0,
+    cs: true,
+    synth_id: 1
+)
