@@ -14,17 +14,17 @@ ActiveRecord::Schema.define(version: 2021_02_12_180531) do
 
   create_table "presets", force: :cascade do |t|
     t.string "name"
-    t.integer "wtb"
-    t.float "fd"
-    t.float "att"
-    t.float "dc"
-    t.float "sus"
-    t.float "rel"
-    t.float "rd"
-    t.float "dd"
-    t.boolean "ts"
-    t.float "tf"
-    t.boolean "cs"
+    t.integer "wave_type"
+    t.float "filter_dial"
+    t.float "attack_value"
+    t.float "decay_value"
+    t.float "sustain_value"
+    t.float "release_value"
+    t.float "reverb_dial"
+    t.float "delay_dial"
+    t.boolean "trem_switch"
+    t.float "trem_frequency"
+    t.boolean "chorus_switch"
     t.integer "synth_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
