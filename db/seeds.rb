@@ -135,3 +135,36 @@ Preset.create(
     chorus_switch: true,
     synth_id: 1
 )
+
+Preset.create(
+    name: "Analog Pluck",
+    wave_type: 3,
+    filter_dial: 2500,
+    attack_value: 0.01,
+    decay_value: 1.75,
+    sustain_value: 0.1,
+    release_value: 2,
+    reverb_dial: 0.25,
+    delay_dial: 0,
+    trem_switch: false,
+    trem_frequency: 0,
+    chorus_switch: false,
+    synth_id: 1
+)
+
+Preset.create(
+    name: "Epic Horn Section",
+    wave_type: 3,
+    filter_dial: 5000,
+    attack_value: 0.25,
+    decay_value: 0.6,
+    sustain_value: 1.5,
+    release_value: 4,
+    reverb_dial: 0.85,
+    delay_dial: 0.04,
+    trem_switch: false,
+    trem_frequency: 2,
+    chorus_switch: true,
+    synth_id: 1
+)
+
